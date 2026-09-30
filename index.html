@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lang Wang — Software · Data · AI</title>
+<meta name="description" content="Lang Wang is a software / data / AI developer based in Toronto. Portfolio of self-directed projects: dispute-evidence builder, RAG document Q&A, biomedical data dashboard.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232563eb'/%3E%3Ctext x='32' y='42' font-family='Arial' font-size='30' font-weight='bold' fill='white' text-anchor='middle'%3ELW%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a class="brand" href="#top">Lang Wang</a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <a class="btn btn-primary btn-sm" href="assets/Lang_Wang.pdf" download>Résumé</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="hero-kicker">Toronto, Canada · Open to work</p>
+      <h1>Lang Wang</h1>
+      <p class="hero-sub">Software · Data · AI — I build things that work.</p>
+      <p class="hero-bio">
+        MEng graduate from McMaster University (GPA 3.9) with hands-on experience across
+        full-stack development, data analysis, and applied machine learning — from AR
+        rehabilitation systems to RAG-powered document search. I like turning messy,
+        real-world inputs into clean, working software.
+      </p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#projects">View projects</a>
+        <a class="btn btn-ghost" href="#contact">Get in touch</a>
+      </div>
+      <div class="hero-links">
+        <a href="https://github.com/asd70890asd" target="_blank" rel="noopener">GitHub</a>
+        <span>·</span>
+        <a href="https://www.linkedin.com/in/langwang2025" target="_blank" rel="noopener">LinkedIn</a>
+        <span>·</span>
+        <a href="mailto:langwang0526@gmail.com">langwang0526@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section" id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <p class="section-lead">Self-directed learning projects — designed, built, and tested end to end. All demo data is synthetic.</p>
+
+      <div class="project-grid">
+
+        <article class="card project-card reveal">
+          <div class="project-shot">
+            <img src="https://raw.githubusercontent.com/asd70890asd/dispute-evidence-builder/main/docs/screenshots/casefile-overview.png" alt="CaseFile dispute evidence builder interface" loading="lazy">
+          </div>
+          <div class="project-body">
+            <div class="tag-row"><span class="tag">Self-directed learning project</span></div>
+            <h3>CaseFile — Dispute Evidence Builder</h3>
+            <p>Upload photos, chat logs, and receipts; it extracts dates and amounts, builds a
+               chronological timeline, matches each claim against your evidence with sentence
+               embeddings (supported / partial / no evidence), flags gaps and amount
+               inconsistencies, and exports a print-ready evidence brief. All demo data is
+               synthetic and fictional — it organizes materials; it is not legal advice.</p>
+            <div class="stack">
+              <span>Python</span><span>FastAPI</span><span>sentence-transformers</span><span>Vanilla JS</span>
+            </div>
+            <div class="project-links">
+              <a class="btn btn-primary btn-sm" href="https://github.com/asd70890asd/dispute-evidence-builder" target="_blank" rel="noopener">GitHub repo</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card project-card reveal">
+          <div class="project-shot">
+            <img src="https://raw.githubusercontent.com/asd70890asd/rag-doc-qa-demo/main/docs/screenshots/ui-chat.png" alt="RAG document Q&A chat interface" loading="lazy">
+          </div>
+          <div class="project-body">
+            <div class="tag-row"><span class="tag">Self-directed learning project</span></div>
+            <h3>RAG Document Q&amp;A</h3>
+            <p>Ask questions over your own documents. Upload TXT/PDF files, which get chunked and
+               indexed with sentence-transformer embeddings; retrieval-augmented generation
+               answers each question with cited source passages. Built to learn the full RAG
+               pipeline — chunking, embeddings, retrieval, and grounded answering.</p>
+            <div class="stack">
+              <span>Python</span><span>FastAPI</span><span>sentence-transformers</span><span>RAG</span>
+            </div>
+            <div class="project-links">
+              <a class="btn btn-primary btn-sm" href="https://github.com/asd70890asd/rag-doc-qa-demo" target="_blank" rel="noopener">GitHub repo</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card project-card reveal">
+          <div class="project-shot">
+            <img src="https://raw.githubusercontent.com/asd70890asd/biomed-data-dashboard/main/docs/screenshots/tab1.png" alt="Biomedical data dashboard" loading="lazy">
+          </div>
+          <div class="project-body">
+            <div class="tag-row"><span class="tag">Self-directed learning project</span></div>
+            <h3>Biomedical Data Dashboard</h3>
+            <p>Interactive Streamlit dashboard for exploring research datasets — upload data,
+               filter and slice it, visualize trends, and export results. Built to practice the
+               end-to-end analytics workflow: ingestion, cleaning, visualization, and insight
+               delivery.</p>
+            <div class="stack">
+              <span>Python</span><span>Streamlit</span><span>pandas</span><span>Plotly</span>
+            </div>
+            <div class="project-links">
+              <a class="btn btn-primary btn-sm" href="https://github.com/asd70890asd/biomed-data-dashboard" target="_blank" rel="noopener">GitHub repo</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="card skill-card reveal">
+          <h3>Languages</h3>
+          <div class="pills"><span>Python</span><span>Java</span><span>C</span><span>C++</span><span>R</span><span>SQL</span><span>JavaScript</span><span>HTML5</span></div>
+        </div>
+        <div class="card skill-card reveal">
+          <h3>Data &amp; AI</h3>
+          <div class="pills"><span>Machine Learning</span><span>Statistics</span><span>RAG</span><span>NLP Embeddings</span><span>Power BI</span><span>pandas</span></div>
+        </div>
+        <div class="card skill-card reveal">
+          <h3>Frameworks &amp; Tools</h3>
+          <div class="pills"><span>FastAPI</span><span>Streamlit</span><span>Unity</span><span>MySQL</span><span>Git</span><span>VS Code</span></div>
+        </div>
+        <div class="card skill-card reveal">
+          <h3>Practices</h3>
+          <div class="pills"><span>Software Testing / QA</span><span>AR/VR Development</span><span>CI/CD Basics</span><span>Data Analysis</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="section" id="experience">
+    <div class="container">
+      <h2>Experience</h2>
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content card">
+            <p class="timeline-date">May 2026 – Aug 2026</p>
+            <h3>Software Developer</h3>
+            <p class="timeline-org">Beijing Jiahe Hospital · Beijing, China</p>
+            <p>Designed, developed, and tested web applications with a cross-functional team; optimized web performance and system architecture.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content card">
+            <p class="timeline-date">Jan 2025 – Jan 2026</p>
+            <h3>Graduate Research Project — AR Rehabilitation System Developer</h3>
+            <p class="timeline-org">McMaster University, Dept. of Systems and Technology · Hamilton, Canada</p>
+            <p>Architected an AR rehabilitation system in Unity with gaze control and spatial kinematics; stable 30 FPS on AR glasses; UI/UX refined for real-time clinical testing.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content card">
+            <p class="timeline-date">May 2024 – Jul 2024</p>
+            <h3>Research Assistant</h3>
+            <p class="timeline-org">Boya Research Institute of Technology · Beijing, China</p>
+            <p>Applied machine learning and parametric/non-parametric statistics in Python and R to interpret complex scientific data.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content card">
+            <p class="timeline-date">Jun 2023 – Aug 2023</p>
+            <h3>Software Testing Engineer Intern</h3>
+            <p class="timeline-org">AnHuiXingLianYunXiang · Anhui, China</p>
+            <p>Tested a DICOM medical-imaging viewer across 8 release versions; resolved 70+ critical bugs and improved rendering stability.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content card">
+            <p class="timeline-date">Jun 2023 – Jul 2023</p>
+            <h3>Digital Transformation Process Research Seminar</h3>
+            <p class="timeline-org">University College London · Remote</p>
+            <p>Co-authored an accepted paper, “Challenge and Opportunities for Retailers in the Digital Era” (ICIAI 2023).</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section class="section section-alt" id="education">
+    <div class="container">
+      <h2>Education</h2>
+      <div class="edu-grid">
+        <div class="card edu-card reveal">
+          <p class="timeline-date">Sep 2024 – Jun 2026</p>
+          <h3>Master of Engineering</h3>
+          <p class="timeline-org">McMaster University · Hamilton, Canada</p>
+          <p>Engineering · GPA 3.9</p>
+        </div>
+        <div class="card edu-card reveal">
+          <p class="timeline-date">Sep 2019 – Jun 2024</p>
+          <h3>Bachelor of Science</h3>
+          <p class="timeline-org">McMaster University · Hamilton, Canada</p>
+          <p>Computer Science · GPA 3.3</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section" id="contact">
+    <div class="container contact-box reveal">
+      <h2>Let's talk</h2>
+      <p>I'm looking for software, data, and AI roles in the GTA or remote across Canada.</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="mailto:langwang0526@gmail.com">langwang0526@gmail.com</a>
+        <a class="btn btn-ghost" href="assets/Lang_Wang.pdf" download>Download résumé</a>
+      </div>
+      <div class="hero-links">
+        <a href="https://github.com/asd70890asd" target="_blank" rel="noopener">GitHub</a>
+        <span>·</span>
+        <a href="https://www.linkedin.com/in/langwang2025" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <p>© 2026 Lang Wang · Built with care in Toronto</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
